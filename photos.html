@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>Всё о совах, и даже больше. Фоточки с совами. От души душевно в душу</title>
+    <link href="data\text_info\styles.css" rel="stylesheet">
+    <link href="data\text_info\photos_style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.7/dist/handlebars.min.js"></script>
+    <style>
+        .swiper-button-next,
+        .swiper-button-prev {
+          size: 100%;
+            color: rgb(81, 62, 62);
+            font-weight: bold;
+            width: 3vw;
+            height: 3vw;
+        }
+
+        .swiper-button-next:hover,
+        .swiper-button-prev:hover {
+            color: rgb(50, 38, 38);
+        }
+
+        .swiper-pagination-bullet {
+          background: rgb(18, 15, 15);
+          width: 0.9vw;
+          height: 0.9vw;
+          margin: 0 1vw;
+          border-radius: 50%;
+      }
+      
+      .swiper-pagination-bullet-active {
+          background: rgb(81, 62, 62);
+      }
+      
+    </style>
+  </head>
+
+  <body>
+
+    <script src="./js_scripts/active_page_loader.js"></script>
+    <a class="logo" href="home.html"><img src="data/photos/logo.png" width=10% height=10%></a>
+    <h1>ФОТОГРАФИИ И МЕМЫ</h1>
+
+    <nav class="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" id="menuCheckbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <li>
+            <a href="home.html" class="normal_b">Главная</a>
+          </li>
+          <li>
+            <a href="photos.html" class="normal_b">Галерея</a>
+          </li>
+          <li>
+            <a href="info.html" class="normal_b">Информация</a>
+          </li>
+          <li>
+            <a href="user_news.html" class="normal_b">Новости</a>
+          </li>
+          <li>
+            <a href="how_owl.html" class="normal_b">Какая сова</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="image_container">
+                  <img src="data/photos/filin_5.jpg" width=40% height=40% class="gallery_image">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="image_container">
+                  <img src="data/photos/neyasut_3.jpg" width=70% height=70% class="gallery_image">
+                </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image_container">
+                <img src="data/photos/fishy_5.jpg" width=65% height=65% class="gallery_image">
+              </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="image_container">
+              <img src="data/photos/neotropiki_2.jpg" width=40% height=40% class="gallery_image">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="image_container">
+              <img src="data/photos/polar_1.jpg" width=50% height=50% class="gallery_image">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="image_container">
+              <img src="data/photos/sipuha_4.jpg" width=50% height=50% class="gallery_image">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="image_container">
+              <img src="data/photos/splushka_1.jpg" width=50% height=50% class="gallery_image">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="image_container">
+              <img src="data/photos/suchi_3.jpg" width=50% height=50% class="gallery_image">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="image_container">
+              <img src="data/photos/yastreb_5.jpg" width=60% height=60% class="gallery_image">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="image_container">
+              <img src="data/photos/yshastue_5.jpg" width=70% height=70% class="gallery_image">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="image_container">
+              <img src="data/photos/splushka_5.jpg" width=55% height=55% class="gallery_image">
+            </div>
+          </div>
+        </div>
+    
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <article class="news_article">
+      <img 
+      src="data/photos/news_1.jpg" 
+      alt="" 
+      width="80%" 
+      height="45%" 
+      class="news_img" />
+    
+      <h3>Легенда остаётся в тренде</h3>
+      <p class="news">
+          Сова "Чё-чё это чё?" сохраняет свою популярность даже спустя годы! 
+          Взгляните на это видео ещё раз или познакомтесь с ним впервые!
+      </p>
+  </article>
+
+  <article class="news_article">
+    <img 
+    src="data/photos/news_2.jpg" 
+    alt="" 
+    width="80%" 
+    height="45%" 
+    class="news_img" />
+  
+    <h3>Сова сделала uwu и всем понравилась!</h3>
+    <p class="news">
+        Невероятно милая полярная сова сделал uwu, пока её снимала 
+        камера! Фотки получились замечательные, а популярность 
+        снежной птички мгновенно взлетела! 
+    </p>
+</article>
+
+<article class="news_article">
+  <img 
+  src="data/photos/news_3.jpg" 
+  alt="" 
+  width="80%" 
+  height="45%" 
+  class="news_img" />
+
+  <h3>Совомедведи: правда или вымысел?</h3>
+  <p class="news">
+      Возможно ли наткнуться на совомедведя в лесу? Чем они питаются?
+      Почему о них так мало известно? Вилирина Кот дала ответы на все
+      эти вопросы в своей книге.
+  </p>
+</article>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+
+    const nextSetButton = document.getElementById('nextSetButton');
+    let currentSetIndex = 0;
+
+    nextSetButton.addEventListener('click', () => {
+        currentSetIndex += 3;
+        if (currentSetIndex >= swiper.slides.length) {
+            currentSetIndex = 0;
+        }
+        swiper.slideTo(currentSetIndex);
+    });
+</script>
+
+  </body>
+  <footer>
+    <p class="phrase">
+      ЛЕТАЙ И УХУКАЙ {*▾*}
+  </p>
+  </footer>
+</html>
+
+
+
+<!-- 
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.7/dist/handlebars.min.js"></script>
+    <script src="load_stats.js" defer></script>
+    <link href="navigation_bar/css/nav_button-dropbtn.css" rel="stylesheet">
+    <link href="navigation_bar/css/nav_button.css" rel="stylesheet">
+    <link href="navigation_bar/css/nav.css" rel="stylesheet">
+    <link href="common_css/styles.css" rel="stylesheet">
+    <link href="common_css/table.css" rel="stylesheet">
+    <link href="gallery/css/image.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="content"></div>
+<script src="navigation_bar/header_loader.js"></script>
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="image_container">
+                <img src="data/beach.JPG" alt="Наш пляж.jpg">
+                <div class="image_header">Наш пляж</div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="image_container">
+                <img src="data/catamaran.JPG" alt="Вид на город" width="648" height="486" class="gallery_image"/>
+                <div class="image_header">Вид на город</div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="image_container">
+                <img src="data/sea.JPG" alt="Наше море" width="648" height="486" class="gallery_image"/>
+                <div class="image_header">Наше море</div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="image_container">
+                <img src="data/beach.JPG" alt="Наш пляж" width="648" height="486" class="gallery_image"/>
+                <div class="image_header">Наш пляж</div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="image_container">
+                <img src="data/catamaran.JPG" alt="Вид на город" width="648" height="486" class="gallery_image"/>
+                <div class="image_header">Вид на город</div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="image_container">
+                <img src="data/sea.JPG" alt="Наше море" width="648" height="486" class="gallery_image"/>
+                <div class="image_header">Наше море</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+</div>
+
+<footer>
+    <div id="load-stats"></div>
+</footer>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+
+    const nextSetButton = document.getElementById('nextSetButton');
+    let currentSetIndex = 0;
+
+    nextSetButton.addEventListener('click', () => {
+        currentSetIndex += 3;
+        if (currentSetIndex >= swiper.slides.length) {
+            currentSetIndex = 0;
+        }
+        swiper.slideTo(currentSetIndex);
+    });
+</script>
+
+</body>
+</html> -->
+
+
+<!-- <!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Всё о совах, и даже больше. Фоточки с совами. От души душевно в душу</title>
+    <link href="data/text_info/styles.css" rel="stylesheet">
+    <link href="data/text_info/photos_style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.7/dist/handlebars.min.js"></script>
+    
+    <style>
+        /* Custom styles for Swiper pagination */
+        
+        /* Standard pagination bullets */
+        .swiper-pagination-bullet {
+            background: rgb(255, 0, 0); /* Standard color */
+            width: 12px; /* Adjust size */
+            height: 12px; /* Adjust size */
+            margin: 0 4px; /* Space between bullets */
+            border-radius: 50%; /* Make bullets circular */
+        }
+
+        /* Active pagination bullet */
+        .swiper-pagination-bullet-active {
+            background: rgb(44, 2, 255); /* Active color */
+        }
+    </style>
+</head>
+
+<body>
+
+    <script src="./js_scripts/active_page_loader.js"></script>
+    <a class="logo" href="home.html"><img src="data/photos/logo.png" width=10% height=10%></a>
+    <h1>ФОТОГРАФИИ И МЕМЫ</h1>
+
+    <nav class="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" id="menuCheckbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <li><a href="home.html" class="normal_b">Главная</a></li>
+          <li><a href="photos.html" class="normal_b">Галерея</a></li>
+          <li><a href="info.html" class="normal_b">Информация</a></li>
+          <li><a href="user_news.html" class="normal_b">Новости</a></li>
+          <li><a href="how_owl.html" class="normal_b">Какая сова</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="image_container">
+              <img src="data/photos/splushka_1.jpg" width=50% height=50% class="gallery_image">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="image_container">
+              <img src="data/photos/suchi_3.jpg" width=50% height=50% class="gallery_image">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="image_container">
+              <img src="data/photos/yastreb_5.jpg" width=60% height=60% class="gallery_image">
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+    const nextSetButton = document.getElementById('nextSetButton');
+    let currentSetIndex = 0;
+
+    nextSetButton.addEventListener('click', () => {
+        currentSetIndex += 3;
+        if (currentSetIndex >= swiper.slides.length) {
+            currentSetIndex = 0;
+        }
+        swiper.slideTo(currentSetIndex);
+    });
+</script>
+
+</body>
+<footer>
+    <p class="phrase">
+      ЛЕТАЙ И УХУКАЙ {*▾*}
+    </p>
+</footer>
+</html> -->

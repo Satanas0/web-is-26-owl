@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Всё о совах, и даже больше. Лента новостей и комментариев</title>
+    <link href="data/text_info/styles.css" rel="stylesheet">
+    <link href="data/text_info/user_news_style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <script src="./js_scripts/active_page_loader.js"></script>
+    <a class="logo" href="home.html"><img src="data/photos/logo.png" width=10% height=10%></a>
+    <h1>НОВОСТИ ОТ ПОЛЬЗОВАТЕЛЕЙ</h1>
+  
+    <nav class="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" id="menuCheckbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <li>
+            <a href="home.html" class="normal_b">Главная</a>
+          </li>
+          <li>
+            <a href="photos.html" class="normal_b">Галерея</a>
+          </li>
+          <li>
+            <a href="info.html" class="normal_b">Информация</a>
+          </li>
+          <li>
+            <a href="user_news.html" class="normal_b">Новости</a>
+          </li>
+          <li>
+            <a href="how_owl.html" class="normal_b">Какая сова</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="div">
+      <h2 class="news_h2">
+        ЛЕНТА
+      </h2>
+
+      <div id="content"></div>
+        <table class="news_table">
+            <tbody id="news_generator">
+            </tbody>
+        </table>
+
+        <p class="news_p">
+          Спасибо за чтение!
+        </p>
+    </div>
+
+    <div class="div">
+      <h2 class="news_h2">
+        Предложи свою новость
+      </h2>
+        <form id="newsForm">
+            <div class="head_container1">
+              <label class="news-lable" for="name">Имя автора:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="head_container2">
+              <label class="news-lable" for="title">Заголовок:</label>
+              <input type="text" id="title" name="title" required>
+            </div>
+
+            <div class="container">
+                <label class="news-lable-newsText" for="newsText">Новость:</label>
+            </div>
+            <textarea class="news-textarea" id="newsText" name="newsText" rows="5" required></textarea>
+
+            <button class="release_button" type="submit">Предложить новость</button>
+        </form>
+    </div>
+
+    <button id="clearStorageButton" type="button">Очистить хранилище</button>
+
+    <script src="./js_scripts/news_loader.js"></script>
+    <footer>
+        <div id="load-stats"></div>
+    </footer>
+
+</body>
+<footer>
+  <p class="phrase">
+      ЛЕТАЙ И УХУКАЙ {*▾*}
+  </p>
+</footer>
+</html>

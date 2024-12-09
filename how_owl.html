@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Всё о совах, и даже больше. Узнай свою сову</title>
+    <link href="data/text_info/styles.css" rel="stylesheet">
+    <link href="data/text_info/how_owl_style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <script src="./js_scripts/active_page_loader.js"></script>
+    <a class="logo" href="home.html"><img src="data/photos/logo.png" width=10% height=10%></a>
+    <h1>ВЕЛИКИЙ СОВООПРЕДЕЛИТЕЛЬ</h1>
+  
+    <nav class="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" id="menuCheckbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <li>
+            <a href="home.html" class="normal_b">Главная</a>
+          </li>
+          <li>
+            <a href="photos.html" class="normal_b">Галерея</a>
+          </li>
+          <li>
+            <a href="info.html" class="normal_b">Информация</a>
+          </li>
+          <li>
+            <a href="user_news.html" class="normal_b">Новости</a>
+          </li>
+          <li>
+            <a href="how_owl.html" class="normal_b">Какая сова</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="div">
+        <h2 class="how_h2">
+            КАКАЯ ТЫ СОВА?
+        </h2>
+        <p class="how_p" id="before_text" style="display: block;">
+            Нажми на кнопку и узнай!
+        </p>
+
+        <p class="sova_result" id="sova_result">
+        </p>
+
+        <button id="getOwlButton" type="button" style="display: block;">ОСОВЕТЬ</button>
+        <script src="./js_scripts/how_owl_generator.js"></script>
+
+        <p class="end_owl">
+            :)\____/(:
+        </p>
+        <p class="end_owl">
+            {(@)v(@)
+        </p>
+        <p class="end_owl">
+            {|~- -~|}
+        </p>
+        <p class="end_owl">
+            {/^'^'^\}
+        </p>
+        <p class="end_owl">
+            ══m-m══
+        </p>
+
+        <div id="loader" style="display: none;">
+            <div class="spinner"></div>
+        </div>
+    </div>
+</body>
+<footer>
+  <p class="phrase">
+      ЛЕТАЙ И УХУКАЙ {*▾*}
+  </p>
+</footer>
+</html>

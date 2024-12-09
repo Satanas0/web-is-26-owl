@@ -1,0 +1,28 @@
+.home_h2 {
+    text-align: center;
+    font-size: 2vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding: 2vw;
+}
+
+.sova {
+    text-align: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 3vw;
+    /* width: 80%;
+    height: 80%; */
+}
+
+.home_p {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.6vw;
+    padding-left: 1.3vw;
+    padding-right: 1.3vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}

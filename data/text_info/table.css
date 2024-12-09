@@ -1,0 +1,22 @@
+  .container {
+    display: grid;
+    border-color: black;
+    border-style: solid;
+    font-size: 20px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .container>div:nth-child(6n+1),
+  .container>div:nth-child(6n+2),
+  .container>div:nth-child(6n+3){
+    background-color: #C9E4F6;
+    font-style: italic;
+  }
+
+  .container>div:nth-child(1),
+  .container>div:nth-child(2),
+  .container>div:nth-child(3) {
+      font-weight: bold;
+      font-style: normal;
+      background-color: #78bfee;
+  }
